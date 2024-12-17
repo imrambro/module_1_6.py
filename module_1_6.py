@@ -1,0 +1,15 @@
+my_dict = {'Filip':1998, 'Anna': 1995, 'Valeriy':2001, 'Margaret':1985}# 2. Работа со словарями
+print(my_dict)
+print(my_dict['Margaret'])
+print(my_dict.get('Anton'))
+my_dict.update({'Sara':1974, 'Valentin':1993})
+print(my_dict)
+a = my_dict.pop('Filip')
+print(a)
+print(my_dict)
+my_set = {1,3,5,1,5,'Beth',3,3.12,'Beth', 3.12}# 3. Работа с множествами
+print(my_set)
+print(my_set.add('Smith'),my_set.add(4))
+print(my_set)
+print(my_set.remove('Beth'))
+print(my_set)
